@@ -118,6 +118,19 @@ dependencies {
             api("io.insert-koin:koin-core:$koinVersion")
             api("io.insert-koin:koin-test:$koinVersion")
         }
+
+        group("Dagger") {
+            val daggerVersion = "2.40"
+            val hiltVersion = "2.30.1-alpha"
+            api("com.google.dagger:dagger:$daggerVersion")
+            api("com.google.dagger:dagger-compiler:$daggerVersion")
+            api("com.google.dagger:dagger-android:$daggerVersion")
+            // if you use the support libraries
+            api("com.google.dagger:dagger-android-support:$daggerVersion")
+            api("com.google.dagger:dagger-android-processor:$daggerVersion")
+            api("com.google.dagger:hilt-android:$hiltVersion")
+            api("com.google.dagger:hilt-android-compiler:$hiltVersion")
+        }
         group("KotlinX") {
             val coroutinesVersion = "1.5.2"
             api("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion")
@@ -150,6 +163,14 @@ dependencies {
         group("Loupe") {
             api("com.igreenwood.loupe:loupe:1.2.1")
             api("com.igreenwood.loupe:extensions:1.0.0")
+        }
+        group("Retrofit2"){
+            val retrofitVersion = "2.9.0"
+            api("com.squareup.retrofit2:retrofit:$retrofitVersion")
+            api("com.squareup.retrofit2:converter-moshi:$retrofitVersion")
+            api("com.squareup.retrofit2:converter-scalars:$retrofitVersion")
+            api("com.squareup.retrofit2:converter-gson:$retrofitVersion")
+            api("com.squareup.retrofit2:converter-jackson:$retrofitVersion")
         }
         group("OkHttp") {
             val okHttp3Version = "4.9.2"
