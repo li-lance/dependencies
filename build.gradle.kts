@@ -112,6 +112,7 @@ dependencies {
             api("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0")
             api("androidx.navigation:navigation-common-ktx:2.4.0-alpha03")
             api("androidx.navigation:navigation-compose:2.4.0-alpha10")
+            api("androidx.paging:paging-compose:1.0.0-alpha14")
 
         }
         group("Koin") {
