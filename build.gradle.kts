@@ -110,6 +110,9 @@ dependencies {
             api("com.google.android.material:compose-theme-adapter:${composeVersion}")
             api("androidx.constraintlayout:constraintlayout-compose:1.0.0-rc01")
             api("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0")
+            api("androidx.navigation:navigation-common-ktx:2.4.0-alpha03")
+            api("androidx.navigation:navigation-compose:2.4.0-alpha10")
+
         }
         group("Koin") {
             val koinVersion = "3.1.3"
