@@ -121,7 +121,7 @@ dependencies {
 
         group("Dagger") {
             val daggerVersion = "2.40"
-            val hiltVersion = "2.30.1-alpha"
+            val hiltVersion = "2.38.1"
             api("com.google.dagger:dagger:$daggerVersion")
             api("com.google.dagger:dagger-compiler:$daggerVersion")
             api("com.google.dagger:dagger-android:$daggerVersion")
@@ -130,6 +130,7 @@ dependencies {
             api("com.google.dagger:dagger-android-processor:$daggerVersion")
             api("com.google.dagger:hilt-android:$hiltVersion")
             api("com.google.dagger:hilt-android-compiler:$hiltVersion")
+            api("androidx.hilt:hilt-navigation-compose:1.0.0-alpha03")
         }
         group("KotlinX") {
             val coroutinesVersion = "1.5.2"
@@ -226,6 +227,7 @@ dependencies {
         api("app.cash.turbine:turbine:0.7.0")
         api("com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.6")
         api("com.valentinilk.shimmer:compose-shimmer:1.0.1")
+        api("com.jakewharton.timber:timber:5.0.1")
     }
 }
 
