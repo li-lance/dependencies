@@ -232,6 +232,7 @@ dependencies {
         api("com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.6")
         api("com.valentinilk.shimmer:compose-shimmer:1.0.1")
         api("com.jakewharton.timber:timber:5.0.1")
+        api("androidx.palette:palette:1.0.0")
     }
 }
 
